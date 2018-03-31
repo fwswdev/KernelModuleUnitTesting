@@ -1,3 +1,10 @@
+/*
+ * Basic sample code taken from: https://blog.sourcerer.io/writing-a-simple-linux-kernel-module-d9dc3762c234
+ *
+ * I added simple asserts to demonstrate manual unit testing for Kernel Modules.
+ *
+ */
+
 #define UNIT_TEST_ENABLED 0
 
 #if (UNIT_TEST_ENABLED==0)
